@@ -1,0 +1,135 @@
+header {
+    margin: 47px 0 110px 42px;
+}
+
+.link-header {
+    font-weight: 400;
+    font-size: 14px;
+    color: #17233D;
+    line-height: 21px;
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+.botao-signup {
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    border: none;
+    background-color: #4CB538;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+section {
+    margin-left: 84.82px;
+    margin-right: 146px;
+}
+
+.img-logo {
+    width: 595px;
+    height: 500px;
+    margin-left: 121px;
+}
+
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #4B505A;
+    margin-top: 47px;
+}
+
+
+p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6FBF44;
+    width: 500px;
+    margin-top: 55px;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+}
+
+.img-logo2 {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .link-header {
+        display: none;
+    }
+
+    header .botao-signup {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+
+    main {
+        flex-direction: column;
+        /* Flex-direction movido para dentro da media query */
+    }
+
+    .img-logo {
+        display: none;
+    }
+
+    .img-logo2 {
+        display: inline;
+        width: 312px;
+        height: 288px;
+        margin-left: 0px;
+        margin-top: 59px;
+    }
+
+    h1 {
+        height: 60px;
+        width: 278px;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        color: #161A49;
+        text-align: center;
+    }
+
+    h2 {
+        width: 285px;
+        height: 165px;
+        text-align: center;
+    }
+
+    br {
+        display: none;
+    }
+
+    p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        color: #6FBF44;
+        width: 304px;
+        margin-top: 55px;
+        cursor: pointer;
+        margin-left: auto; /* Centraliza horizontalmente */
+        margin-right: auto; /* Centraliza horizontalmente */
+    }
+}
